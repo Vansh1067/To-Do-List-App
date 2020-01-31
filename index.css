@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    justify-content: center;
+    margin-top: 10px;
+    
+    width:360px;
+    height: 640px;
+    border: 2px solid white;
+    
+}
+.container header{
+    position: relative;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:200px;
+    
+}
+
+.refresh i{
+
+        position:absolute;
+        color:color;
+        right:20px;
+        top:20px;
+        font-size: 20px;
+        font-weight: bolder;
+        cursor: pointer;
+        
+}
+.date{
+    background-color: rgba(0, 0, 0, 0.966);
+    position: absolute;
+    bottom:10px;
+    width:100%;
+
+}
+.date p{
+    color:white;
+    font: fantasy;
+    font-weight: bolder;
+    
+    
+    padding-left:10px;
+    font-size: 25px;
+}
+section{
+    
+    width:100%;
+    height:400px;
+    padding: 5px;
+    background-color:black;
+    overflow-x: hidden; 
+    
+    
+    
+    
+}
+.container footer{
+    background-color:white;
+    width:100%;
+    height:50px;
+    
+
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+
+}
+.input-feild{
+    display: grid;
+    grid-template-columns: 1fr 7fr ;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:5px;
+    
+
+    
+}
+.input-feild i{
+    font-size: 40px;
+    color: darkblue;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.input-feild input{
+    height:100%;
+    width:100%;
+    border:none;
+    font-size: 20px;
+    padding:3px;
+
+}
+.fa-trash:hover{
+    color:red;
+}
+.list-item .item{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 0.8fr 5fr 0.5fr;
+    grid-template-rows: 1fr; 
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 3px 5px  rgba(0, 0, 0, 0.466);
+    
+
+
+}
+.line{
+    color:rgba(77, 75, 75, 0.336);
+    text-decoration:line-through 2px rgba(0, 0, 0, 1);
+    
+}
+.fa-check-circle{
+color:green;
+}
+.list-item ul i{
+    font-size:25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.list-item ul li{
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: left;
+    word-break: break-all;
+    
+
+}
+
